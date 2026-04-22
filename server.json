@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/lobsters",
-  "title": "lousters",
-  "description": "Lobsters MCP — stories and discussions from lobste.rs",
+  "title": "Lobsters",
+  "description": "Lobsters MCP \u2014 stories and discussions from lobste.rs",
   "version": "0.1.0",
   "websiteUrl": "https://pipeworx.io/packs/lobsters",
   "repository": {
