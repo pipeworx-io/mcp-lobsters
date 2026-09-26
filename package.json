@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-lobsters",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Lobsters MCP — stories and discussions from lobste.rs",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8eb09ceb4201a2abf5df0ab4169c6c15d19f0a063024e9d690a028d632660f9e",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-19fb108f20b611ecc94308f3a359a5cd8e868a7046ae1327396ba48943a92749",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
