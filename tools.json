@@ -1,0 +1,50 @@
+[
+  {
+    "name": "get_hottest",
+    "description": "Get trending stories from Lobsters. Returns title, URL, score, comment count, and tags for each story.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_newest",
+    "description": "Get latest stories posted to Lobsters. Returns title, URL, publication time, score, and tags for each story.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "get_story",
+    "description": "Fetch a single story and all its comments by ID (e.g., \"abc123\"). Returns title, URL, text, score, and nested comment threads.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "short_id": {
+          "type": "string",
+          "description": "The short alphanumeric story ID from the Lobsters URL (e.g. \"abcdef\")"
+        }
+      },
+      "required": [
+        "short_id"
+      ]
+    }
+  },
+  {
+    "name": "get_tag",
+    "description": "Search stories by tag (e.g., \"rust\", \"programming\", \"security\"). Returns matching stories with titles, URLs, scores, and tags.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string",
+          "description": "Tag name (e.g. \"rust\", \"programming\", \"security\")"
+        }
+      },
+      "required": [
+        "tag"
+      ]
+    }
+  }
+]
